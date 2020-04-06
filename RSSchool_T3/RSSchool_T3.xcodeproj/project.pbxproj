@@ -16,6 +16,7 @@
 		25787FA62436460F0066701D /* Polynomial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FA52436460E0066701D /* Polynomial.pdf */; };
 		25787FAB243665140066701D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FA8243665140066701D /* ViewController.m */; };
 		25787FAC243665140066701D /* Task 3 - Great mixer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FA9243665140066701D /* Task 3 - Great mixer.pdf */; };
+		BB0DBBA2243A1E0C002BDF62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0DBBA1243A1E0C002BDF62 /* Foundation.framework */; };
 		E3821557225B533B00E3B12B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3821556225B533B00E3B12B /* AppDelegate.m */; };
 		E382155F225B533E00E3B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382155E225B533E00E3B12B /* Assets.xcassets */; };
 		E3821562225B533E00E3B12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3821560225B533E00E3B12B /* LaunchScreen.storyboard */; };
@@ -52,6 +53,7 @@
 		25787FA8243665140066701D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25787FA9243665140066701D /* Task 3 - Great mixer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Task 3 - Great mixer.pdf"; sourceTree = "<group>"; };
 		25787FAA243665140066701D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB0DBBA1243A1E0C002BDF62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3821552225B533B00E3B12B /* RSSchool_T3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3821555225B533B00E3B12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3821556225B533B00E3B12B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0DBBA2243A1E0C002BDF62 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +103,14 @@
 			path = "3 ";
 			sourceTree = "<group>";
 		};
+		BB0DBBA0243A1E0B002BDF62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0DBBA1243A1E0C002BDF62 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3821549225B533B00E3B12B = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +118,7 @@
 				E382156D225B533E00E3B12B /* RSSchool_T3Tests */,
 				E3821578225B533E00E3B12B /* RSSchool_T3UITests */,
 				E3821553225B533B00E3B12B /* Products */,
+				BB0DBBA0243A1E0B002BDF62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -476,7 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42K4QGQ7K4;
+				DEVELOPMENT_TEAM = 7ZX973Q275;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,7 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42K4QGQ7K4;
+				DEVELOPMENT_TEAM = 7ZX973Q275;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
